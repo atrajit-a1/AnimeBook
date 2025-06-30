@@ -1,0 +1,20 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Book shape -->
+  <path d="M5 5C5 3.89543 5.89543 3 7 3H25C26.1046 3 27 3.89543 27 5V27C27 28.1046 26.1046 29 25 29H7C5.89543 29 5 28.1046 5 27V5Z" fill="#8E44AD"/>
+  
+  <!-- Book pages -->
+  <path d="M7 3H25C26.1046 3 27 3.89543 27 5V27C27 28.1046 26.1046 29 25 29H7C5.89543 29 5 28.1046 5 27V5C5 3.89543 5.89543 3 7 3Z" fill="#9B59B6"/>
+  <path d="M8 5C8 4.44772 8.44772 4 9 4H25C25.5523 4 26 4.44772 26 5V27C26 27.5523 25.5523 28 25 28H9C8.44772 28 8 27.5523 8 27V5Z" fill="white"/>
+  
+  <!-- Book spine details -->
+  <rect x="5" y="10" width="3" height="1.5" rx="0.75" fill="#8E44AD"/>
+  <rect x="5" y="15" width="3" height="1.5" rx="0.75" fill="#8E44AD"/>
+  <rect x="5" y="20" width="3" height="1.5" rx="0.75" fill="#8E44AD"/>
+  
+  <!-- Anime character -->
+  <circle cx="16" cy="16" r="6" fill="#F5EEF8"/>
+  <path d="M14 14C14 14 15 13 16 13C17 13 18 14 18 14" stroke="#8E44AD" stroke-width="1" stroke-linecap="round"/>
+  <circle cx="15" cy="15" r="0.75" fill="#8E44AD"/>
+  <circle cx="17" cy="15" r="0.75" fill="#8E44AD"/>
+  <path d="M15 17C15 17 16 18 17 17" stroke="#8E44AD" stroke-width="1" stroke-linecap="round"/>
+</svg>

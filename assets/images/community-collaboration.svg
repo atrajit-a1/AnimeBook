@@ -1,0 +1,210 @@
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background elements -->
+  <defs>
+    <radialGradient id="bg-gradient" cx="250" cy="200" r="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F5EEF8" />
+      <stop offset="100%" stop-color="#D2B4DE" />
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="500" height="400" rx="20" fill="url(#bg-gradient)" opacity="0.7" />
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="80" r="15" fill="#8E44AD" opacity="0.3" />
+  <circle cx="400" cy="320" r="20" fill="#8E44AD" opacity="0.3" />
+  <circle cx="450" cy="100" r="10" fill="#8E44AD" opacity="0.3" />
+  <circle cx="50" cy="300" r="12" fill="#8E44AD" opacity="0.3" />
+  
+  <!-- Central collaboration circle -->
+  <circle cx="250" cy="200" r="100" fill="#8E44AD" opacity="0.2" />
+  <circle cx="250" cy="200" r="90" fill="#8E44AD" opacity="0.1" />
+  
+  <!-- Connection lines between characters -->
+  <path d="M150 150 L250 200 L350 150" stroke="#8E44AD" stroke-width="2" stroke-dasharray="5 5" />
+  <path d="M150 250 L250 200 L350 250" stroke="#8E44AD" stroke-width="2" stroke-dasharray="5 5" />
+  <path d="M150 150 L150 250" stroke="#8E44AD" stroke-width="2" stroke-dasharray="5 5" />
+  <path d="M350 150 L350 250" stroke="#8E44AD" stroke-width="2" stroke-dasharray="5 5" />
+  
+  <!-- Central book icon -->
+  <g transform="translate(220, 170)" filter="url(#glow)">
+    <rect x="0" y="0" width="60" height="60" rx="5" fill="#8E44AD" />
+    <rect x="5" y="5" width="50" height="50" rx="3" fill="white" />
+    <path d="M15 15 L45 15 M15 25 L45 25 M15 35 L35 35 M15 45 L30 45" stroke="#8E44AD" stroke-width="2" stroke-linecap="round" />
+    <path d="M30 0 L30 -10 L40 -15 L50 -10 L50 0" fill="#D2B4DE" stroke="#8E44AD" stroke-width="1" />
+  </g>
+  
+  <!-- Character 1 (top left) - Writer -->
+  <g transform="translate(150, 150)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#FADBD8" />
+    <path d="M-15 -10 Q0 -20 15 -10" stroke="#6C3483" stroke-width="2" stroke-linecap="round" />
+    <circle cx="-10" cy="-5" r="3" fill="#6C3483" />
+    <circle cx="10" cy="-5" r="3" fill="#6C3483" />
+    <path d="M-5 10 Q0 15 5 10" stroke="#6C3483" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Writer accessories -->
+    <path d="M-25 -15 L-35 -25" stroke="#6C3483" stroke-width="1" />
+    <circle cx="-35" cy="-25" r="5" fill="#D2B4DE" />
+    <rect x="-40" cy="-30" width="10" height="2" rx="1" fill="#6C3483" transform="rotate(45, -35, -25)" />
+    
+    <!-- Body -->
+    <path d="M-15 25 Q0 20 15 25 L15 60 Q0 65 -15 60 Z" fill="#D2B4DE" />
+    
+    <!-- Arms -->
+    <path d="M-15 30 C-25 35 -30 45 -25 55" stroke="#D2B4DE" stroke-width="8" stroke-linecap="round" />
+    <path d="M15 30 C25 35 30 45 25 55" stroke="#D2B4DE" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Book in hands -->
+    <rect x="-10" y="45" width="20" height="15" rx="2" fill="#E74C3C" />
+    <rect x="-8" y="47" width="16" height="11" rx="1" fill="white" />
+    <path d="M0 47 L0 58" stroke="#E74C3C" stroke-width="1" />
+  </g>
+  
+  <!-- Character 2 (top right) - Artist -->
+  <g transform="translate(350, 150)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#FADBD8" />
+    <path d="M-15 -10 Q0 -20 15 -10" stroke="#6C3483" stroke-width="2" stroke-linecap="round" />
+    <circle cx="-10" cy="-5" r="3" fill="#6C3483" />
+    <circle cx="10" cy="-5" r="3" fill="#6C3483" />
+    <path d="M-5 10 Q0 15 5 10" stroke="#6C3483" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Artist accessories -->
+    <path d="M20 -10 L30 -20" stroke="#6C3483" stroke-width="1" />
+    <path d="M30 -20 L35 -15" stroke="#E74C3C" stroke-width="2" stroke-linecap="round" />
+    <path d="M30 -20 L25 -15" stroke="#3498DB" stroke-width="2" stroke-linecap="round" />
+    <path d="M30 -20 L30 -25" stroke="#2ECC71" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Body -->
+    <path d="M-15 25 Q0 20 15 25 L15 60 Q0 65 -15 60 Z" fill="#8E44AD" />
+    
+    <!-- Arms -->
+    <path d="M-15 30 C-25 35 -30 45 -25 55" stroke="#8E44AD" stroke-width="8" stroke-linecap="round" />
+    <path d="M15 30 C25 35 30 45 25 55" stroke="#8E44AD" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Drawing tablet -->
+    <rect x="-15" y="45" width="30" height="20" rx="2" fill="#34495E" />
+    <rect x="-12" y="48" width="24" height="14" rx="1" fill="#ECF0F1" />
+    <path d="M-5 52 L5 58 M0 50 L8 55" stroke="#8E44AD" stroke-width="1" />
+  </g>
+  
+  <!-- Character 3 (bottom left) - Developer -->
+  <g transform="translate(150, 250)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#FADBD8" />
+    <path d="M-15 -10 Q0 -20 15 -10" stroke="#6C3483" stroke-width="2" stroke-linecap="round" />
+    <circle cx="-10" cy="-5" r="3" fill="#6C3483" />
+    <circle cx="10" cy="-5" r="3" fill="#6C3483" />
+    <path d="M-5 10 Q0 15 5 10" stroke="#6C3483" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Developer accessories -->
+    <path d="M-20 -15 L-25 -20 L-20 -25 L-25 -30" stroke="#3498DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Body -->
+    <path d="M-15 25 Q0 20 15 25 L15 60 Q0 65 -15 60 Z" fill="#3498DB" />
+    
+    <!-- Arms -->
+    <path d="M-15 30 C-25 35 -30 45 -25 55" stroke="#3498DB" stroke-width="8" stroke-linecap="round" />
+    <path d="M15 30 C25 35 30 45 25 55" stroke="#3498DB" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Laptop -->
+    <path d="M-20 50 L20 50 L15 60 L-15 60 Z" fill="#34495E" />
+    <path d="M-15 35 L15 35 L20 50 L-20 50 Z" fill="#7F8C8D" />
+    <path d="M-10 40 L10 40 L12 45 L-12 45 Z" fill="#ECF0F1" />
+    <path d="M-2 55 L2 55" stroke="#ECF0F1" stroke-width="1" stroke-linecap="round" />
+  </g>
+  
+  <!-- Character 4 (bottom right) - Reader -->
+  <g transform="translate(350, 250)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="25" fill="#FADBD8" />
+    <path d="M-15 -10 Q0 -20 15 -10" stroke="#6C3483" stroke-width="2" stroke-linecap="round" />
+    <circle cx="-10" cy="-5" r="3" fill="#6C3483" />
+    <circle cx="10" cy="-5" r="3" fill="#6C3483" />
+    <path d="M-5 10 Q0 15 5 10" stroke="#6C3483" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- Reader accessories -->
+    <path d="M15 -15 L25 -20" stroke="#6C3483" stroke-width="1" />
+    <circle cx="25" cy="-20" r="5" fill="#E74C3C" />
+    <path d="M22 -23 L28 -17 M22 -17 L28 -23" stroke="white" stroke-width="1" stroke-linecap="round" />
+    
+    <!-- Body -->
+    <path d="M-15 25 Q0 20 15 25 L15 60 Q0 65 -15 60 Z" fill="#E74C3C" />
+    
+    <!-- Arms -->
+    <path d="M-15 30 C-25 35 -30 45 -25 55" stroke="#E74C3C" stroke-width="8" stroke-linecap="round" />
+    <path d="M15 30 C25 35 30 45 25 55" stroke="#E74C3C" stroke-width="8" stroke-linecap="round" />
+    
+    <!-- Mobile device -->
+    <rect x="-15" y="45" width="30" height="20" rx="3" fill="#34495E" />
+    <rect x="-12" y="48" width="24" height="14" rx="1" fill="#ECF0F1" />
+    <path d="M-8 52 L8 52 M-8 56 L4 56" stroke="#E74C3C" stroke-width="1" stroke-linecap="round" />
+    <circle cx="0" cy="62" r="2" fill="#34495E" />
+  </g>
+  
+  <!-- Floating elements -->
+  <!-- Code snippets -->
+  <g transform="translate(80, 100)">
+    <rect x="0" y="0" width="40" height="25" rx="5" fill="white" stroke="#8E44AD" stroke-width="1" />
+    <text x="20" y="15" font-family="monospace" font-size="10" text-anchor="middle" fill="#8E44AD">{ }</text>
+  </g>
+  
+  <g transform="translate(380, 100)">
+    <rect x="0" y="0" width="40" height="25" rx="5" fill="white" stroke="#8E44AD" stroke-width="1" />
+    <text x="20" y="15" font-family="monospace" font-size="10" text-anchor="middle" fill="#8E44AD">< /></text>
+  </g>
+  
+  <g transform="translate(80, 300)">
+    <rect x="0" y="0" width="40" height="25" rx="5" fill="white" stroke="#8E44AD" stroke-width="1" />
+    <text x="20" y="15" font-family="monospace" font-size="10" text-anchor="middle" fill="#8E44AD"># md</text>
+  </g>
+  
+  <g transform="translate(380, 300)">
+    <rect x="0" y="0" width="40" height="25" rx="5" fill="white" stroke="#8E44AD" stroke-width="1" />
+    <text x="20" y="15" font-family="monospace" font-size="10" text-anchor="middle" fill="#8E44AD">/* */</text>
+  </g>
+  
+  <!-- Floating books -->
+  <g transform="translate(50, 150) rotate(-15)">
+    <rect x="0" y="0" width="30" height="20" rx="2" fill="#9B59B6" />
+    <rect x="2" y="2" width="26" height="16" rx="1" fill="white" />
+    <path d="M15 2 L15 18" stroke="#9B59B6" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(420, 150) rotate(15)">
+    <rect x="0" y="0" width="30" height="20" rx="2" fill="#3498DB" />
+    <rect x="2" y="2" width="26" height="16" rx="1" fill="white" />
+    <path d="M15 2 L15 18" stroke="#3498DB" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(50, 250) rotate(10)">
+    <rect x="0" y="0" width="30" height="20" rx="2" fill="#E74C3C" />
+    <rect x="2" y="2" width="26" height="16" rx="1" fill="white" />
+    <path d="M15 2 L15 18" stroke="#E74C3C" stroke-width="1" />
+  </g>
+  
+  <g transform="translate(420, 250) rotate(-10)">
+    <rect x="0" y="0" width="30" height="20" rx="2" fill="#2ECC71" />
+    <rect x="2" y="2" width="26" height="16" rx="1" fill="white" />
+    <path d="M15 2 L15 18" stroke="#2ECC71" stroke-width="1" />
+  </g>
+  
+  <!-- Sparkles and stars -->
+  <path d="M120 50 L125 60 L130 50 L125 40 Z" fill="#F1C40F" />
+  <path d="M380 50 L385 60 L390 50 L385 40 Z" fill="#F1C40F" />
+  <path d="M120 350 L125 360 L130 350 L125 340 Z" fill="#F1C40F" />
+  <path d="M380 350 L385 360 L390 350 L385 340 Z" fill="#F1C40F" />
+  
+  <circle cx="200" cy="100" r="3" fill="#F1C40F" />
+  <circle cx="300" cy="100" r="3" fill="#F1C40F" />
+  <circle cx="200" cy="300" r="3" fill="#F1C40F" />
+  <circle cx="300" cy="300" r="3" fill="#F1C40F" />
+  
+  <!-- Title at the bottom -->
+  <text x="250" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#8E44AD">Community Collaboration</text>
+</svg>

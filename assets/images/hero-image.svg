@@ -1,0 +1,152 @@
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background elements -->
+  <circle cx="250" cy="200" r="150" fill="#F5EEF8" opacity="0.5"/>
+  <circle cx="150" cy="100" r="20" fill="#D2B4DE" opacity="0.7"/>
+  <circle cx="350" cy="300" r="30" fill="#D2B4DE" opacity="0.7"/>
+  <circle cx="400" cy="150" r="15" fill="#D2B4DE" opacity="0.7"/>
+  <circle cx="100" cy="250" r="25" fill="#D2B4DE" opacity="0.7"/>
+  
+  <!-- Main character (girl reading) -->
+  <!-- Hair -->
+  <path d="M220 120C220 120 200 140 200 180C200 220 220 240 220 240C220 240 180 220 180 180C180 140 220 120 220 120Z" fill="#8E44AD"/>
+  <path d="M280 120C280 120 300 140 300 180C300 220 280 240 280 240C280 240 320 220 320 180C320 140 280 120 280 120Z" fill="#8E44AD"/>
+  <ellipse cx="250" cy="150" rx="50" ry="60" fill="#8E44AD"/>
+  
+  <!-- Face -->
+  <ellipse cx="250" cy="150" rx="40" ry="45" fill="#FADBD8"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="235" cy="140" rx="5" ry="7" fill="white"/>
+  <ellipse cx="265" cy="140" rx="5" ry="7" fill="white"/>
+  <circle cx="235" cy="140" r="3" fill="#6C3483"/>
+  <circle cx="265" cy="140" r="3" fill="#6C3483"/>
+  <path d="M230 130C230 130 232 128 235 128C238 128 240 130 240 130" stroke="#6C3483" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M260 130C260 130 262 128 265 128C268 128 270 130 270 130" stroke="#6C3483" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Mouth -->
+  <path d="M245 160C245 160 250 165 255 160" stroke="#6C3483" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Body -->
+  <path d="M220 200C220 200 230 190 250 190C270 190 280 200 280 200V260C280 260 270 270 250 270C230 270 220 260 220 260V200Z" fill="#D2B4DE"/>
+  
+  <!-- Arms -->
+  <path d="M220 200C220 200 200 210 190 230C180 250 190 260 190 260" stroke="#D2B4DE" stroke-width="20" stroke-linecap="round"/>
+  <path d="M280 200C280 200 300 210 310 230C320 250 310 260 310 260" stroke="#D2B4DE" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Book -->
+  <rect x="210" y="230" width="80" height="60" rx="5" fill="#3498DB"/>
+  <rect x="215" y="235" width="70" height="50" rx="3" fill="white"/>
+  <line x1="250" y1="235" x2="250" y2="285" stroke="#3498DB" stroke-width="1"/>
+  <line x1="225" y1="245" x2="245" y2="245" stroke="#3498DB" stroke-width="1"/>
+  <line x1="225" y1="255" x2="245" y2="255" stroke="#3498DB" stroke-width="1"/>
+  <line x1="225" y1="265" x2="245" y2="265" stroke="#3498DB" stroke-width="1"/>
+  <line x1="225" y1="275" x2="245" y2="275" stroke="#3498DB" stroke-width="1"/>
+  <line x1="255" y1="245" x2="275" y2="245" stroke="#3498DB" stroke-width="1"/>
+  <line x1="255" y1="255" x2="275" y2="255" stroke="#3498DB" stroke-width="1"/>
+  <line x1="255" y1="265" x2="275" y2="265" stroke="#3498DB" stroke-width="1"/>
+  <line x1="255" y1="275" x2="275" y2="275" stroke="#3498DB" stroke-width="1"/>
+  
+  <!-- Second character (boy) -->
+  <!-- Hair -->
+  <path d="M100 180C100 180 80 160 80 150C80 140 90 130 100 130C110 130 120 140 120 140C120 140 130 130 140 130C150 130 160 140 160 150C160 160 140 180 140 180" fill="#6C3483"/>
+  
+  <!-- Face -->
+  <ellipse cx="120" cy="180" rx="30" ry="35" fill="#FADBD8"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="110" cy="175" rx="4" ry="5" fill="white"/>
+  <ellipse cx="130" cy="175" rx="4" ry="5" fill="white"/>
+  <circle cx="110" cy="175" r="2" fill="#6C3483"/>
+  <circle cx="130" cy="175" r="2" fill="#6C3483"/>
+  <path d="M105 165C105 165 107 163 110 163C113 163 115 165 115 165" stroke="#6C3483" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M125 165C125 165 127 163 130 163C133 163 135 165 135 165" stroke="#6C3483" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Mouth -->
+  <path d="M115 190C115 190 120 195 125 190" stroke="#6C3483" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Body -->
+  <path d="M100 220C100 220 110 210 120 210C130 210 140 220 140 220V280C140 280 130 290 120 290C110 290 100 280 100 280V220Z" fill="#8E44AD"/>
+  
+  <!-- Arms -->
+  <path d="M100 220C100 220 80 230 70 250C60 270 70 280 70 280" stroke="#8E44AD" stroke-width="15" stroke-linecap="round"/>
+  <path d="M140 220C140 220 160 230 170 250C180 270 170 280 170 280" stroke="#8E44AD" stroke-width="15" stroke-linecap="round"/>
+  
+  <!-- Book -->
+  <rect x="90" y="250" width="60" height="40" rx="5" fill="#E74C3C"/>
+  <rect x="95" y="255" width="50" height="30" rx="3" fill="white"/>
+  <line x1="120" y1="255" x2="120" y2="285" stroke="#E74C3C" stroke-width="1"/>
+  <line x1="105" y1="260" x2="115" y2="260" stroke="#E74C3C" stroke-width="1"/>
+  <line x1="105" y1="265" x2="115" y2="265" stroke="#E74C3C" stroke-width="1"/>
+  <line x1="105" y1="270" x2="115" y2="270" stroke="#E74C3C" stroke-width="1"/>
+  <line x1="105" y1="275" x2="115" y2="275" stroke="#E74C3C" stroke-width="1"/>
+  <line x1="125" y1="260" x2="135" y2="260" stroke="#E74C3C" stroke-width="1"/>
+  <line x1="125" y1="265" x2="135" y2="265" stroke="#E74C3C" stroke-width="1"/>
+  <line x1="125" y1="270" x2="135" y2="270" stroke="#E74C3C" stroke-width="1"/>
+  <line x1="125" y1="275" x2="135" y2="275" stroke="#E74C3C" stroke-width="1"/>
+  
+  <!-- Third character (sitting) -->
+  <!-- Hair -->
+  <path d="M380 200C380 200 360 180 360 170C360 160 370 150 380 150C390 150 400 160 400 160C400 160 410 150 420 150C430 150 440 160 440 170C440 180 420 200 420 200" fill="#E74C3C"/>
+  
+  <!-- Face -->
+  <ellipse cx="400" cy="200" rx="25" ry="30" fill="#FADBD8"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="390" cy="195" rx="3" ry="4" fill="white"/>
+  <ellipse cx="410" cy="195" rx="3" ry="4" fill="white"/>
+  <circle cx="390" cy="195" r="2" fill="#6C3483"/>
+  <circle cx="410" cy="195" r="2" fill="#6C3483"/>
+  <path d="M385 185C385 185 387 183 390 183C393 183 395 185 395 185" stroke="#6C3483" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M405 185C405 185 407 183 410 183C413 183 415 185 415 185" stroke="#6C3483" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Mouth -->
+  <path d="M395 210C395 210 400 215 405 210" stroke="#6C3483" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Body (sitting) -->
+  <path d="M375 230C375 230 385 220 400 220C415 220 425 230 425 230V260C425 260 415 270 400 270C385 270 375 260 375 260V230Z" fill="#3498DB"/>
+  
+  <!-- Legs (sitting) -->
+  <path d="M375 260C375 260 385 270 400 270C415 270 425 260 425 260V290C425 290 415 300 400 300C385 300 375 290 375 290V260Z" fill="#2980B9"/>
+  
+  <!-- Arms -->
+  <path d="M375 230C375 230 355 240 345 260C335 280 345 290 345 290" stroke="#3498DB" stroke-width="15" stroke-linecap="round"/>
+  <path d="M425 230C425 230 445 240 455 260C465 280 455 290 455 290" stroke="#3498DB" stroke-width="15" stroke-linecap="round"/>
+  
+  <!-- Book -->
+  <rect x="370" y="260" width="60" height="40" rx="5" fill="#8E44AD"/>
+  <rect x="375" y="265" width="50" height="30" rx="3" fill="white"/>
+  <line x1="400" y1="265" x2="400" y2="295" stroke="#8E44AD" stroke-width="1"/>
+  <line x1="385" y1="270" x2="395" y2="270" stroke="#8E44AD" stroke-width="1"/>
+  <line x1="385" y1="275" x2="395" y2="275" stroke="#8E44AD" stroke-width="1"/>
+  <line x1="385" y1="280" x2="395" y2="280" stroke="#8E44AD" stroke-width="1"/>
+  <line x1="385" y1="285" x2="395" y2="285" stroke="#8E44AD" stroke-width="1"/>
+  <line x1="405" y1="270" x2="415" y2="270" stroke="#8E44AD" stroke-width="1"/>
+  <line x1="405" y1="275" x2="415" y2="275" stroke="#8E44AD" stroke-width="1"/>
+  <line x1="405" y1="280" x2="415" y2="280" stroke="#8E44AD" stroke-width="1"/>
+  <line x1="405" y1="285" x2="415" y2="285" stroke="#8E44AD" stroke-width="1"/>
+  
+  <!-- Floating books -->
+  <g transform="rotate(-15, 180, 100)">
+    <rect x="170" y="80" width="40" height="30" rx="3" fill="#E74C3C"/>
+    <rect x="173" y="83" width="34" height="24" rx="2" fill="white"/>
+    <line x1="190" y1="83" x2="190" y2="107" stroke="#E74C3C" stroke-width="1"/>
+  </g>
+  
+  <g transform="rotate(20, 320, 120)">
+    <rect x="310" y="100" width="40" height="30" rx="3" fill="#3498DB"/>
+    <rect x="313" y="103" width="34" height="24" rx="2" fill="white"/>
+    <line x1="330" y1="103" x2="330" y2="127" stroke="#3498DB" stroke-width="1"/>
+  </g>
+  
+  <g transform="rotate(-10, 400, 80)">
+    <rect x="390" y="60" width="40" height="30" rx="3" fill="#8E44AD"/>
+    <rect x="393" y="63" width="34" height="24" rx="2" fill="white"/>
+    <line x1="410" y1="63" x2="410" y2="87" stroke="#8E44AD" stroke-width="1"/>
+  </g>
+  
+  <g transform="rotate(15, 80, 120)">
+    <rect x="70" y="100" width="40" height="30" rx="3" fill="#2ECC71"/>
+    <rect x="73" y="103" width="34" height="24" rx="2" fill="white"/>
+    <line x1="90" y1="103" x2="90" y2="127" stroke="#2ECC71" stroke-width="1"/>
+  </g>
+</svg>

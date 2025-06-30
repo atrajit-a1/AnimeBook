@@ -1,0 +1,126 @@
+<svg width="500" height="400" viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background elements -->
+  <circle cx="250" cy="200" r="150" fill="#F5EEF8" opacity="0.5"/>
+  <circle cx="150" cy="100" r="20" fill="#D2B4DE" opacity="0.7"/>
+  <circle cx="350" cy="300" r="30" fill="#D2B4DE" opacity="0.7"/>
+  <circle cx="400" cy="150" r="15" fill="#D2B4DE" opacity="0.7"/>
+  <circle cx="100" cy="250" r="25" fill="#D2B4DE" opacity="0.7"/>
+  
+  <!-- Central GitHub logo -->
+  <circle cx="250" cy="200" r="80" fill="#8E44AD" opacity="0.9"/>
+  <path d="M250 140C221.5 140 198 163.5 198 192C198 214.5 213 233.5 233.5 240C236 240.5 237 239 237 237.5C237 236.5 237 233.5 237 230C223 233 219.5 223 219.5 223C217 217 213 215.5 213 215.5C207.5 212 213.5 212 213.5 212C219.5 212.5 222.5 218 222.5 218C228 226 236.5 223.5 237.5 222.5C238 218.5 239.5 216 241 214.5C229.5 213 217.5 208 217.5 188.5C217.5 183 219.5 178.5 222.5 175C222 173.5 220 168 223.5 160.5C223.5 160.5 228 159 237 165C241 163.5 245.5 163 250 163C254.5 163 259 163.5 263 165C272 159 276.5 160.5 276.5 160.5C280 168 278 173.5 277.5 175C280.5 178.5 282.5 183 282.5 188.5C282.5 208 270.5 213 259 214.5C261 216.5 263 220 263 226C263 234.5 263 236 263 237.5C263 239 264 240.5 266.5 240C287 233.5 302 214.5 302 192C302 163.5 278.5 140 250 140Z" fill="white"/>
+  
+  <!-- Characters around the GitHub logo -->
+  
+  <!-- Character 1 (top left) -->
+  <!-- Head -->
+  <circle cx="150" cy="150" r="30" fill="#FADBD8"/>
+  <path d="M130 140C130 140 140 130 150 130C160 130 170 140 170 140" stroke="#6C3483" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="140" cy="145" r="3" fill="#6C3483"/>
+  <circle cx="160" cy="145" r="3" fill="#6C3483"/>
+  <path d="M145 160C145 160 150 165 155 160" stroke="#6C3483" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Body -->
+  <path d="M135 180C135 180 145 175 150 175C155 175 165 180 165 180V210C165 210 155 215 150 215C145 215 135 210 135 210V180Z" fill="#D2B4DE"/>
+  
+  <!-- Arms -->
+  <path d="M135 180C135 180 125 185 120 195C115 205 120 210 120 210" stroke="#D2B4DE" stroke-width="10" stroke-linecap="round"/>
+  <path d="M165 180C165 180 175 185 180 195C185 205 180 210 180 210" stroke="#D2B4DE" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Character 2 (top right) -->
+  <!-- Head -->
+  <circle cx="350" cy="150" r="30" fill="#FADBD8"/>
+  <path d="M330 140C330 140 340 130 350 130C360 130 370 140 370 140" stroke="#6C3483" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="340" cy="145" r="3" fill="#6C3483"/>
+  <circle cx="360" cy="145" r="3" fill="#6C3483"/>
+  <path d="M345 160C345 160 350 165 355 160" stroke="#6C3483" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Body -->
+  <path d="M335 180C335 180 345 175 350 175C355 175 365 180 365 180V210C365 210 355 215 350 215C345 215 335 210 335 210V180Z" fill="#8E44AD"/>
+  
+  <!-- Arms -->
+  <path d="M335 180C335 180 325 185 320 195C315 205 320 210 320 210" stroke="#8E44AD" stroke-width="10" stroke-linecap="round"/>
+  <path d="M365 180C365 180 375 185 380 195C385 205 380 210 380 210" stroke="#8E44AD" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Character 3 (bottom left) -->
+  <!-- Head -->
+  <circle cx="150" cy="250" r="30" fill="#FADBD8"/>
+  <path d="M130 240C130 240 140 230 150 230C160 230 170 240 170 240" stroke="#6C3483" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="140" cy="245" r="3" fill="#6C3483"/>
+  <circle cx="160" cy="245" r="3" fill="#6C3483"/>
+  <path d="M145 260C145 260 150 265 155 260" stroke="#6C3483" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Body -->
+  <path d="M135 280C135 280 145 275 150 275C155 275 165 280 165 280V310C165 310 155 315 150 315C145 315 135 310 135 310V280Z" fill="#3498DB"/>
+  
+  <!-- Arms -->
+  <path d="M135 280C135 280 125 285 120 295C115 305 120 310 120 310" stroke="#3498DB" stroke-width="10" stroke-linecap="round"/>
+  <path d="M165 280C165 280 175 285 180 295C185 305 180 310 180 310" stroke="#3498DB" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Character 4 (bottom right) -->
+  <!-- Head -->
+  <circle cx="350" cy="250" r="30" fill="#FADBD8"/>
+  <path d="M330 240C330 240 340 230 350 230C360 230 370 240 370 240" stroke="#6C3483" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="340" cy="245" r="3" fill="#6C3483"/>
+  <circle cx="360" cy="245" r="3" fill="#6C3483"/>
+  <path d="M345 260C345 260 350 265 355 260" stroke="#6C3483" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Body -->
+  <path d="M335 280C335 280 345 275 350 275C355 275 365 280 365 280V310C365 310 355 315 350 315C345 315 335 310 335 310V280Z" fill="#E74C3C"/>
+  
+  <!-- Arms -->
+  <path d="M335 280C335 280 325 285 320 295C315 305 320 310 320 310" stroke="#E74C3C" stroke-width="10" stroke-linecap="round"/>
+  <path d="M365 280C365 280 375 285 380 295C385 305 380 310 380 310" stroke="#E74C3C" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Connection lines between characters and GitHub -->
+  <line x1="180" y1="180" x2="220" y2="180" stroke="#8E44AD" stroke-width="2" stroke-dasharray="5 5"/>
+  <line x1="320" y1="180" x2="280" y2="180" stroke="#8E44AD" stroke-width="2" stroke-dasharray="5 5"/>
+  <line x1="180" y1="280" x2="220" y2="220" stroke="#8E44AD" stroke-width="2" stroke-dasharray="5 5"/>
+  <line x1="320" y1="280" x2="280" y2="220" stroke="#8E44AD" stroke-width="2" stroke-dasharray="5 5"/>
+  
+  <!-- Books floating around -->
+  <g transform="rotate(-15, 100, 100)">
+    <rect x="80" y="80" width="40" height="30" rx="3" fill="#E74C3C"/>
+    <rect x="83" y="83" width="34" height="24" rx="2" fill="white"/>
+    <line x1="100" y1="83" x2="100" y2="107" stroke="#E74C3C" stroke-width="1"/>
+  </g>
+  
+  <g transform="rotate(20, 400, 100)">
+    <rect x="380" y="80" width="40" height="30" rx="3" fill="#3498DB"/>
+    <rect x="383" y="83" width="34" height="24" rx="2" fill="white"/>
+    <line x1="400" y1="83" x2="400" y2="107" stroke="#3498DB" stroke-width="1"/>
+  </g>
+  
+  <g transform="rotate(-10, 100, 300)">
+    <rect x="80" y="280" width="40" height="30" rx="3" fill="#8E44AD"/>
+    <rect x="83" y="283" width="34" height="24" rx="2" fill="white"/>
+    <line x1="100" y1="283" x2="100" y2="307" stroke="#8E44AD" stroke-width="1"/>
+  </g>
+  
+  <g transform="rotate(15, 400, 300)">
+    <rect x="380" y="280" width="40" height="30" rx="3" fill="#2ECC71"/>
+    <rect x="383" y="283" width="34" height="24" rx="2" fill="white"/>
+    <line x1="400" y1="283" x2="400" y2="307" stroke="#2ECC71" stroke-width="1"/>
+  </g>
+  
+  <!-- Text bubbles with code/markdown symbols -->
+  <g transform="translate(120, 120)">
+    <path d="M0 0L10 10H40C45 10 50 15 50 20V40C50 45 45 50 40 50H10C5 50 0 45 0 40V0Z" fill="white" stroke="#8E44AD" stroke-width="2"/>
+    <text x="25" y="30" font-family="monospace" font-size="12" text-anchor="middle" fill="#8E44AD"># MD</text>
+  </g>
+  
+  <g transform="translate(330, 120)">
+    <path d="M50 0L40 10H10C5 10 0 15 0 20V40C0 45 5 50 10 50H40C45 50 50 45 50 40V0Z" fill="white" stroke="#8E44AD" stroke-width="2"/>
+    <text x="25" y="30" font-family="monospace" font-size="12" text-anchor="middle" fill="#8E44AD">{ }</text>
+  </g>
+  
+  <g transform="translate(120, 270)">
+    <path d="M0 0L10 10H40C45 10 50 15 50 20V40C50 45 45 50 40 50H10C5 50 0 45 0 40V0Z" fill="white" stroke="#8E44AD" stroke-width="2"/>
+    <text x="25" y="30" font-family="monospace" font-size="12" text-anchor="middle" fill="#8E44AD">< ></text>
+  </g>
+  
+  <g transform="translate(330, 270)">
+    <path d="M50 0L40 10H10C5 10 0 15 0 20V40C0 45 5 50 10 50H40C45 50 50 45 50 40V0Z" fill="white" stroke="#8E44AD" stroke-width="2"/>
+    <text x="25" y="30" font-family="monospace" font-size="12" text-anchor="middle" fill="#8E44AD">/* */</text>
+  </g>
+</svg>
