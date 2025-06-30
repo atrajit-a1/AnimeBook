@@ -1,6 +1,0 @@
-# robots.txt for Anime Book Library
-
-User-agent: *
-Allow: /
-
-Sitemap: https://atrajit-sarkar.github.io/AnimeBook/sitemap.xml
